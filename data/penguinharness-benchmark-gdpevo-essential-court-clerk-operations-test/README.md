@@ -24,9 +24,9 @@ Run from the root of a checkout of the full 40-character lowercase commit named 
 
 The State archive contains the contents of `agents/<agent_id>/agent_state`, with its configuration and Skills at the archive root. Use the base State for a no-Skill comparison; otherwise add the frozen Skill and an instruction to use it. Host-side Skills are not automatically visible inside the container. The adapter installs this State for the Target Agent, dropping `.vault.toml`.
 
-The adapter installs Node.js and the selected published Penguin version during setup. A source build is optional. To use an existing installation bundle, add `--ak install_bundle=<bundle.tar.gz>`; `tools/make_install_bundle.sh <output.tar.gz> <penguin-version> <node-version>` builds one from a published version. Keep the executable version fixed throughout the experiment.
+The adapter installs Node.js and the selected published Penguin version during setup. A source build is optional. To use an existing installation bundle, add `--ak install_bundle=<bundle.tar.gz>`; `agents/make_install_bundle.sh <output.tar.gz> <penguin-version> <node-version>` builds one from a published version. Keep the executable version fixed throughout the experiment.
 
-The adapter reads the model connection from `host_penguin_home` / `host_project_id`, defaulting to `$PENGUIN_HOME` / `$PENGUIN_PROJECT_ID`, then `~/.penguin/data` / `default_project`. Pass these two `--ak` options when needed. It copies the selected model entry privately; do not put keys in commands or job files. `python3 tools/agent_host.py -m <provider>/<model_id>` prints the API host to allow.
+The adapter reads the model connection from `host_penguin_home` / `host_project_id`, defaulting to `$PENGUIN_HOME` / `$PENGUIN_PROJECT_ID`, then `~/.penguin/data` / `default_project`. Pass these two `--ak` options when needed. It copies the selected model entry privately; do not put keys in commands or job files. `python3 agents/agent_host.py -m <provider>/<model_id>` prints the API host to allow.
 
 ## Run testing
 
@@ -83,7 +83,6 @@ penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test/
   README.md
   SOURCE.md
   LICENSE
-  selection.json
   job.yaml
   tasks/
     task_group.yaml
@@ -95,14 +94,9 @@ penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test/
     court-clerk-operations-test-005/
 ```
 
-`tasks/court-clerk-operations-test-001/` through `tasks/court-clerk-operations-test-005/` are five independent Harbor tasks. `selection.json` lists these five test questions.
+`tasks/court-clerk-operations-test-001/` through `tasks/court-clerk-operations-test-005/` are five independent Harbor tasks. `job.yaml` lists these five test questions.
 
-This directory owns its environment and test tasks. An external GDPevo checkout is needed only to regenerate them; see [SOURCE.md](SOURCE.md) for the pinned commit and setup commands. It does not read another benchmark's data. Shared repository tools generate the files; changes to tools do not require the experiment runner to consult another domain's README.
-
-```bash
-python3 tools/gdpevo/convert.py --source /path/to/GDPevo gdpevo-essential-court-clerk-operations
-python3 tools/gdpevo/convert.py --source /path/to/GDPevo gdpevo-essential-court-clerk-operations --check
-```
+This directory contains its own environment and task files. Maintain them under `tasks/`; see [SOURCE.md](SOURCE.md) for provenance.
 
 Import this benchmark's Train/Test packages from `main` as described in [package import](../../packages/README.md#import-a-package).
 

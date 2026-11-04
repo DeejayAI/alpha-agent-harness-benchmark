@@ -3,18 +3,14 @@
 # such as .env, *.key or *.pyc that a global pattern would silently drop.
 
 # Harbor job output (trial logs, Penguin data roots with Traces). Never
-# committed: the results PR carries summaries under results/ only.
+# committed: experiment records are stored under experiments/.
 /jobs/
 /bundles/
 
-# rag-bench-essential's upstream checkout, which tools/rag_bench/fetch.sh downloads
-# for maintainers who regenerate the committed tasks.
+# Local source checkouts and downloaded archives.
 /data/penguinharness-benchmark-sec-a/upstream/
-
-# Upstream archives downloaded by tools/vendor_hub_tasks.py.
 /.vendor-cache/
 
 # Python caches and environments of the repository's own code.
 /agents/**/__pycache__/
-/tools/**/__pycache__/
 /.venv/
