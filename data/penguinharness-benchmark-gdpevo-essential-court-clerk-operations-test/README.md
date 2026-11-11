@@ -4,10 +4,10 @@ Court Operations Portal (court-clerk dispositions, orders and financial entries)
 
 | Item | Value |
 | --- | --- |
-| Benchmark ID | `penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test` |
+| Benchmark ID | `alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test` |
 | Original task group | `task_group_018` |
-| Train package | [`penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train) |
-| Test package | [`penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test) |
+| Train package | [`alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-train`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-train) |
+| Test package | [`alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test) |
 | Task manifest | [`tasks/task_group.yaml`](tasks/task_group.yaml) |
 | Business API in the container | `http://127.0.0.1:9018` |
 
@@ -16,7 +16,7 @@ Court Operations Portal (court-clerk dispositions, orders and financial entries)
 
 The Test package contains five independent Cases. Each question runs in a fresh container and Agent Session, using the same frozen Agent State. `job.yaml` schedules these five test tasks.
 
-For training, use the [paired Train benchmark](../penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train/README.md), whose five questions share one continuous Session and container.
+For training, use the [paired Train benchmark](../alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-train/README.md), whose five questions share one continuous Session and container.
 
 ## Agent State and setup
 
@@ -35,7 +35,7 @@ Run all five test questions against the selected frozen State:
 ```bash
 export PYTHONPATH="$PWD/agents"
 uvx --from harbor==0.23.0 harbor run \
-  -p data/penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test/tasks -i 'court-clerk-operations-test-*' \
+  -p data/alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test/tasks -i 'court-clerk-operations-test-*' \
   -a penguin_agent:PenguinAgent -m <provider>/<model_id> \
   --ak thinking=<level> --ak penguin_version=<version> \
   --ak agent_state_tar=<frozen-test-state.tar.gz> \
@@ -79,7 +79,7 @@ The Train package and Test package are separate measurements. Calculate and repo
 ## Files and maintenance
 
 ```text
-penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test/
+alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test/
   README.md
   SOURCE.md
   LICENSE

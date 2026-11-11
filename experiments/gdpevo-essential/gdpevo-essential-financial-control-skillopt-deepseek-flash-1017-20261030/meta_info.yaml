@@ -8,9 +8,9 @@ model_provider: deepseek
 thinking_level: max
 algorithm: skillopt-rsi-toolkit
 training_data:
-- penguinharness-benchmark-gdpevo-essential-financial-control-train
+- alphaagentharness-benchmark-gdpevo-essential-financial-control-train
 test_data:
-- penguinharness-benchmark-gdpevo-essential-financial-control-test
+- alphaagentharness-benchmark-gdpevo-essential-financial-control-test
 references:
 - https://arxiv.org/abs/2605.23904v1
 author:

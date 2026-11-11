@@ -22,7 +22,7 @@ Two biomedical prediction tasks in which each patient contributes repeated voice
 
 ```bash
 export PYTHONPATH="$PWD/agents"
-uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-biomedical-repeated-measures/job.yaml --job-name biomedical-repeated-measures-attempt-1 -y
+uvx --from harbor==0.23.0 harbor run -c data/alphaagentharness-benchmark-biomedical-repeated-measures/job.yaml --job-name biomedical-repeated-measures-attempt-1 -y
 ```
 
 ## Licence

@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-test
     task_id: CASE-001-service-ticket-resolution-test-001
   time: '2026-10-28T22:53:48Z'
   score: 70.59
@@ -9,7 +9,7 @@
   n_cache_tokens: 5171072
   n_output_tokens: 118106
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-test
     task_id: CASE-002-service-ticket-resolution-test-002
   time: '2026-10-28T23:27:05Z'
   score: 72.22
@@ -19,7 +19,7 @@
   n_cache_tokens: 1892352
   n_output_tokens: 41043
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-test
     task_id: CASE-003-service-ticket-resolution-test-003
   time: '2026-10-28T23:45:06Z'
   score: 52.94
@@ -29,7 +29,7 @@
   n_cache_tokens: 1756160
   n_output_tokens: 28643
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-test
     task_id: CASE-004-service-ticket-resolution-test-004
   time: '2026-10-29T00:10:08Z'
   score: 72.73
@@ -39,7 +39,7 @@
   n_cache_tokens: 1647744
   n_output_tokens: 42243
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-test
     task_id: CASE-005-service-ticket-resolution-test-005
   time: '2026-10-29T00:54:52Z'
   score: 38.10

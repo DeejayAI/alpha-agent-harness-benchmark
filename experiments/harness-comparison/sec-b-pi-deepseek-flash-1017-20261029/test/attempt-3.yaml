@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-001-prometheus-typed-label-sorting
   time: null
   score: 100.00
@@ -9,7 +9,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-002-expr-try-catch-errors
   time: null
   score: 100.00
@@ -19,7 +19,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-003-dateutil-rfc5545-timezone-interop
   time: null
   score: 100.00
@@ -29,7 +29,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-004-httpx-streaming-json-iteration
   time: null
   score: 0.00
@@ -39,7 +39,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-005-superjson-error-stack-serialization
   time: null
   score: 100.00
@@ -49,7 +49,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-006-katex-multicolumn-array-spans
   time: null
   score: 100.00
@@ -59,7 +59,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-007-etree-xml-diff-patch
   time: null
   score: 100.00
@@ -69,7 +69,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-008-bandit-interprocedural-taint-checks
   time: null
   score: 0.00
@@ -79,7 +79,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-009-kysely-window-grouping-helpers
   time: null
   score: 0.00
@@ -89,7 +89,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-010-pest-character-class-coalescing
   time: null
   score: 0.00

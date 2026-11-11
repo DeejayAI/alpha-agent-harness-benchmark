@@ -8,9 +8,9 @@ model_provider: deepseek
 thinking_level: max
 algorithm: skilladam-rsi-toolkit
 training_data:
-- penguinharness-benchmark-gdpevo-essential-coverage-review-train
+- alphaagentharness-benchmark-gdpevo-essential-coverage-review-train
 test_data:
-- penguinharness-benchmark-gdpevo-essential-coverage-review-test
+- alphaagentharness-benchmark-gdpevo-essential-coverage-review-test
 references:
 - https://arxiv.org/abs/2609.08944v1
 author:

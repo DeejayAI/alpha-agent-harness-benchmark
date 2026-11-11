@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-coverage-review-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-coverage-review-test
     task_id: CASE-001-coverage-review-test-001
   time: '2026-10-28T21:42:55Z'
   score: 90.00
@@ -9,7 +9,7 @@
   n_cache_tokens: 715904
   n_output_tokens: 22808
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-coverage-review-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-coverage-review-test
     task_id: CASE-002-coverage-review-test-002
   time: '2026-10-28T21:43:20Z'
   score: 100.00
@@ -19,7 +19,7 @@
   n_cache_tokens: 1107328
   n_output_tokens: 27049
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-coverage-review-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-coverage-review-test
     task_id: CASE-003-coverage-review-test-003
   time: '2026-10-28T21:46:11Z'
   score: 70.00
@@ -29,7 +29,7 @@
   n_cache_tokens: 516992
   n_output_tokens: 23858
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-coverage-review-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-coverage-review-test
     task_id: CASE-004-coverage-review-test-004
   time: '2026-10-28T21:49:43Z'
   score: 65.00
@@ -39,7 +39,7 @@
   n_cache_tokens: 1646208
   n_output_tokens: 58589
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-coverage-review-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-coverage-review-test
     task_id: CASE-005-coverage-review-test-005
   time: '2026-10-28T21:47:00Z'
   score: 75.00

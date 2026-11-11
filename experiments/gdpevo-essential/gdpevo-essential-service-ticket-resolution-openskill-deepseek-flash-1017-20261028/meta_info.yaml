@@ -8,9 +8,9 @@ model_provider: deepseek
 thinking_level: max
 algorithm: openskill-rsi-toolkit
 training_data:
-- penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-train
+- alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-train
 test_data:
-- penguinharness-benchmark-gdpevo-essential-service-ticket-resolution-test
+- alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-test
 references:
 - https://arxiv.org/abs/2606.06741v1
 author:

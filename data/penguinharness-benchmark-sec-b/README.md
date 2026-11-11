@@ -11,5 +11,5 @@ This subset contains 10 tasks covering all five languages and all three task typ
 
 ```bash
 export PYTHONPATH="$PWD/agents"
-uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-sec-b/job.yaml --job-name deep-swe-attempt-1 -y
+uvx --from harbor==0.23.0 harbor run -c data/alphaagentharness-benchmark-sec-b/job.yaml --job-name deep-swe-attempt-1 -y
 ```

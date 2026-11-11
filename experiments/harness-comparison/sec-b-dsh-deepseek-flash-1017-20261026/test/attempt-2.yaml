@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-001-prometheus-typed-label-sorting
   time: "2026-10-26T04:23:06Z"
   score: 100.00
@@ -9,7 +9,7 @@
   n_cache_tokens: 8897664
   n_output_tokens: 80164
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-002-expr-try-catch-errors
   time: "2026-10-26T04:21:11Z"
   score: 100.00
@@ -19,7 +19,7 @@
   n_cache_tokens: 14424192
   n_output_tokens: 88684
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-003-dateutil-rfc5545-timezone-interop
   time: "2026-10-26T04:19:54Z"
   score: 0.00
@@ -29,7 +29,7 @@
   n_cache_tokens: 12507264
   n_output_tokens: 89678
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-004-httpx-streaming-json-iteration
   time: "2026-10-26T04:14:13Z"
   score: 100.00
@@ -39,7 +39,7 @@
   n_cache_tokens: 3504640
   n_output_tokens: 55081
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-005-superjson-error-stack-serialization
   time: "2026-10-26T04:19:50Z"
   score: 0.00
@@ -49,7 +49,7 @@
   n_cache_tokens: 7912064
   n_output_tokens: 92223
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-006-katex-multicolumn-array-spans
   time: "2026-10-26T04:20:00Z"
   score: 0.00
@@ -59,7 +59,7 @@
   n_cache_tokens: 13383808
   n_output_tokens: 66686
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-007-etree-xml-diff-patch
   time: "2026-10-26T04:33:35Z"
   score: 100.00
@@ -69,7 +69,7 @@
   n_cache_tokens: 25014912
   n_output_tokens: 121031
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-008-bandit-interprocedural-taint-checks
   time: "2026-10-26T04:21:16Z"
   score: 100.00
@@ -79,7 +79,7 @@
   n_cache_tokens: 12593920
   n_output_tokens: 78147
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-009-kysely-window-grouping-helpers
   time: "2026-10-26T04:27:04Z"
   score: 100.00
@@ -89,7 +89,7 @@
   n_cache_tokens: 24783104
   n_output_tokens: 101329
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-b
+  - benchmark_id: alphaagentharness-benchmark-sec-b
     task_id: CASE-010-pest-character-class-coalescing
   time: "2026-10-26T04:28:09Z"
   score: 0.00

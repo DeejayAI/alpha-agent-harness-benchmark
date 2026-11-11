@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-001-sales-501-multi-hop-lookup
   time: "2026-10-26T04:38:11Z"
   score: 0.00
@@ -9,7 +9,7 @@
   n_cache_tokens: 2180736
   n_output_tokens: 29029
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-002-sales-504-recency-selection
   time: "2026-10-26T04:35:24Z"
   score: 0.00
@@ -19,7 +19,7 @@
   n_cache_tokens: 241024
   n_output_tokens: 8441
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-003-marketing-1040-budget-reallocation
   time: "2026-10-26T04:36:12Z"
   score: 0.00
@@ -29,7 +29,7 @@
   n_cache_tokens: 792576
   n_output_tokens: 15553
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-004-operations-1323-access-request-validation
   time: "2026-10-26T04:37:33Z"
   score: 100.00
@@ -39,7 +39,7 @@
   n_cache_tokens: 972672
   n_output_tokens: 27629
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-005-support-1511-helpscout-customer-merge
   time: "2026-10-26T04:39:23Z"
   score: 0.00
@@ -49,7 +49,7 @@
   n_cache_tokens: 5115520
   n_output_tokens: 30301
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-006-finance-4020-tax-prep-summary
   time: "2026-10-26T04:37:05Z"
   score: 100.00
@@ -59,7 +59,7 @@
   n_cache_tokens: 1346048
   n_output_tokens: 23336
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-007-hr-5066-intern-program-coordination
   time: "2026-10-26T04:38:28Z"
   score: 0.00
@@ -69,7 +69,7 @@
   n_cache_tokens: 1739904
   n_output_tokens: 32481
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-008-marketing-1011-ad-performance-review
   time: "2026-10-26T04:38:26Z"
   score: 0.00
@@ -79,7 +79,7 @@
   n_cache_tokens: 1511424
   n_output_tokens: 33693
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-009-operations-1271-twilio-facilities-emergency
   time: "2026-10-26T04:37:01Z"
   score: 0.00
@@ -89,7 +89,7 @@
   n_cache_tokens: 1115392
   n_output_tokens: 22421
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-c
+  - benchmark_id: alphaagentharness-benchmark-sec-c
     task_id: CASE-010-operations-1386-hazmat-shipping-compliance
   time: "2026-10-26T04:37:07Z"
   score: 100.00

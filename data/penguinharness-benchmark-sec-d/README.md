@@ -11,5 +11,5 @@ This subset contains 10 tasks across the five scientific domains. The tasks run 
 
 ```bash
 export PYTHONPATH="$PWD/agents"
-uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-sec-d/job.yaml --job-name terminal-bench-science-attempt-1 -y
+uvx --from harbor==0.23.0 harbor run -c data/alphaagentharness-benchmark-sec-d/job.yaml --job-name terminal-bench-science-attempt-1 -y
 ```

@@ -1,4 +1,4 @@
-# Source of `data/penguinharness-benchmark-biomedical-repeated-measures`
+# Source of `data/alphaagentharness-benchmark-biomedical-repeated-measures`
 
 - Origin: written for this repository by Haoyang Su (Fudan University and Shanghai Innovation Institute) and contributed in [#15](https://github.com/Prism-Shadow/penguin-harness-benchmark/pull/15), merged as commit `be93138e6d0f475bea8625cb9c07b77ac922eb8e`. There is no upstream benchmark. The reference analyses and their results were prepared with assistance from OpenAI Codex.
 - Data, both from the UCI Machine Learning Repository under CC BY 4.0 and committed unchanged:

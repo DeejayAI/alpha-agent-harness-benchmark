@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-001-variable-star-vetting
   time: "2026-10-26T07:31:14Z"
   score: 0.00
@@ -9,7 +9,7 @@
   n_cache_tokens: 11417984
   n_output_tokens: 127468
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-002-clinical-metadata-recovery
   time: "2026-10-26T07:29:13Z"
   score: 0.00
@@ -19,7 +19,7 @@
   n_cache_tokens: 3061504
   n_output_tokens: 47600
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-003-mri-harmonization
   time: "2026-10-26T07:16:38Z"
   score: 0.00
@@ -29,7 +29,7 @@
   n_cache_tokens: 13059712
   n_output_tokens: 165119
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-004-sparse-network-assimilation
   time: "2026-10-26T07:29:40Z"
   score: 0.00
@@ -39,7 +39,7 @@
   n_cache_tokens: 4821888
   n_output_tokens: 72571
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-005-virtual-baseline-localization
   time: "2026-10-26T07:49:02Z"
   score: 0.00
@@ -49,7 +49,7 @@
   n_cache_tokens: 28722432
   n_output_tokens: 262130
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-006-guided-wave-localization
   time: "2026-10-26T07:36:16Z"
   score: 0.00
@@ -59,7 +59,7 @@
   n_cache_tokens: 10891520
   n_output_tokens: 110150
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-007-foraging-cognitive-model
   time: "2026-10-26T07:37:23Z"
   score: 0.00
@@ -69,7 +69,7 @@
   n_cache_tokens: 3782784
   n_output_tokens: 84862
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-008-linked-cell-suppression
   time: "2026-10-26T08:48:32Z"
   score: 0.00
@@ -79,7 +79,7 @@
   n_cache_tokens: 17736704
   n_output_tokens: 153390
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-009-certified-sparse-regression
   time: "2026-10-26T07:56:26Z"
   score: 0.00
@@ -89,7 +89,7 @@
   n_cache_tokens: 2422528
   n_output_tokens: 119331
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-010-neo-orbit-determination
   time: "2026-10-26T08:09:56Z"
   score: 0.00

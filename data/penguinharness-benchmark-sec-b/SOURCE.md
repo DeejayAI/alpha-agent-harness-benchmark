@@ -1,4 +1,4 @@
-# Source of `data/penguinharness-benchmark-sec-b/tasks`
+# Source of `data/alphaagentharness-benchmark-sec-b/tasks`
 
 - Upstream: DeepSWE v1.1, https://github.com/datacurve-ai/deep-swe (Apache-2.0)
 - Pinned: `main` at commit `0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea`

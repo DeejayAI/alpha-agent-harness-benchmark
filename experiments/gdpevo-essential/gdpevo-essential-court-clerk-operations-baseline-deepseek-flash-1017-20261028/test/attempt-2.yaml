@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test
     task_id: CASE-001-court-clerk-operations-test-001
   time: '2026-10-29T00:15:11Z'
   score: 29.41
@@ -9,7 +9,7 @@
   n_cache_tokens: 1811839
   n_output_tokens: 92548
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test
     task_id: CASE-002-court-clerk-operations-test-002
   time: '2026-10-29T00:09:54Z'
   score: 78.57
@@ -19,7 +19,7 @@
   n_cache_tokens: 586624
   n_output_tokens: 34099
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test
     task_id: CASE-003-court-clerk-operations-test-003
   time: '2026-10-29T00:10:48Z'
   score: 50.00
@@ -29,7 +29,7 @@
   n_cache_tokens: 791296
   n_output_tokens: 41986
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test
     task_id: CASE-004-court-clerk-operations-test-004
   time: '2026-10-29T00:23:12Z'
   score: 53.33
@@ -39,7 +39,7 @@
   n_cache_tokens: 2087679
   n_output_tokens: 252067
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test
     task_id: CASE-005-court-clerk-operations-test-005
   time: '2026-10-29T00:36:24Z'
   score: 45.45

@@ -7,7 +7,7 @@ model_name: DeepSeek-V4.1-Flash-1017
 model_provider: deepseek
 thinking_level: max
 test_data:
-- penguinharness-benchmark-gdpevo-essential-financial-control-test
+- alphaagentharness-benchmark-gdpevo-essential-financial-control-test
 author:
   name: Prism-Shadow
   homepage: https://github.com/Prism-Shadow

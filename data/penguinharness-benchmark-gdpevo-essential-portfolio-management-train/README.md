@@ -4,10 +4,10 @@ Asteria Investment Office (institutional investment strategy and portfolio risk)
 
 | Item | Value |
 | --- | --- |
-| Benchmark ID | `penguinharness-benchmark-gdpevo-essential-portfolio-management-train` |
+| Benchmark ID | `alphaagentharness-benchmark-gdpevo-essential-portfolio-management-train` |
 | Original task group | `task_group_010` |
-| Train package | [`penguinharness-benchmark-gdpevo-essential-portfolio-management-train`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-portfolio-management-train) |
-| Test package | [`penguinharness-benchmark-gdpevo-essential-portfolio-management-test`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/penguinharness-benchmark-gdpevo-essential-portfolio-management-test) |
+| Train package | [`alphaagentharness-benchmark-gdpevo-essential-portfolio-management-train`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-train) |
+| Test package | [`alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test`](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/main/packages/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test) |
 | Task manifest | [`tasks/task_group.yaml`](tasks/task_group.yaml) |
 | Business API in the container | `http://127.0.0.1:9010` |
 
@@ -52,7 +52,7 @@ Replace the placeholders below with the experiment's settings and absolute State
 ```bash
 export PYTHONPATH="$PWD/agents"
 uvx --from harbor==0.23.0 harbor run \
-  -p data/penguinharness-benchmark-gdpevo-essential-portfolio-management-train/tasks/train_tasks \
+  -p data/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-train/tasks/train_tasks \
   -a penguin_agent:PenguinAgent -m <provider>/<model_id> \
   --ak thinking=<level> --ak penguin_version=<version> \
   --ak agent_state_tar=<training-state.tar.gz> \
@@ -100,7 +100,7 @@ Build each test State from the original base, adding only the selected frozen Sk
 
 ## Run testing
 
-Use the frozen Skill with the [paired Test benchmark](../penguinharness-benchmark-gdpevo-essential-portfolio-management-test/README.md).
+Use the frozen Skill with the [paired Test benchmark](../alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test/README.md).
 
 ## Limits and isolation
 
@@ -134,7 +134,7 @@ The Train package and Test package are separate measurements. Calculate and repo
 ## Files and maintenance
 
 ```text
-penguinharness-benchmark-gdpevo-essential-portfolio-management-train/
+alphaagentharness-benchmark-gdpevo-essential-portfolio-management-train/
   README.md
   SOURCE.md
   LICENSE

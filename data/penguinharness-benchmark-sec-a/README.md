@@ -42,7 +42,7 @@ Each upstream case ships a reference solution (`truth/solution.py`). The oracle 
 
 ```bash
 export PYTHONPATH="$PWD/agents"
-uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-sec-a/job.yaml --job-name rag-bench-essential-attempt-1 -y
+uvx --from harbor==0.23.0 harbor run -c data/alphaagentharness-benchmark-sec-a/job.yaml --job-name rag-bench-essential-attempt-1 -y
 ```
 
 ## Licence

@@ -10,5 +10,5 @@ This subset contains 10 tasks covering all seven top-level categories. They run 
 
 ```bash
 export PYTHONPATH="$PWD/agents"
-uvx --from harbor==0.23.0 harbor run -c data/penguinharness-benchmark-sec-e/job.yaml --job-name terminal-bench-attempt-1 -y
+uvx --from harbor==0.23.0 harbor run -c data/alphaagentharness-benchmark-sec-e/job.yaml --job-name terminal-bench-attempt-1 -y
 ```

@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-financial-control-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-financial-control-test
     task_id: CASE-001-financial-control-test-001
   time: '2026-10-28T19:54:41Z'
   score: 87.50
@@ -9,7 +9,7 @@
   n_cache_tokens: 835456
   n_output_tokens: 37447
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-financial-control-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-financial-control-test
     task_id: CASE-002-financial-control-test-002
   time: '2026-10-28T19:57:55Z'
   score: 58.82
@@ -19,7 +19,7 @@
   n_cache_tokens: 3970427
   n_output_tokens: 51469
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-financial-control-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-financial-control-test
     task_id: CASE-003-financial-control-test-003
   time: '2026-10-28T20:00:28Z'
   score: 64.71
@@ -29,7 +29,7 @@
   n_cache_tokens: 3304320
   n_output_tokens: 49627
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-financial-control-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-financial-control-test
     task_id: CASE-004-financial-control-test-004
   time: '2026-10-29T00:39:23Z'
   score: 100.00
@@ -39,7 +39,7 @@
   n_cache_tokens: 8326528
   n_output_tokens: 119008
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-financial-control-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-financial-control-test
     task_id: CASE-005-financial-control-test-005
   time: '2026-10-28T20:08:57Z'
   score: 4.76

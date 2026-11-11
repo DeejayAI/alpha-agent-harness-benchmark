@@ -8,9 +8,9 @@ model_provider: deepseek
 thinking_level: max
 algorithm: skillopt-rsi-toolkit
 training_data:
-- penguinharness-benchmark-gdpevo-essential-court-clerk-operations-train
+- alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-train
 test_data:
-- penguinharness-benchmark-gdpevo-essential-court-clerk-operations-test
+- alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test
 references:
 - https://arxiv.org/abs/2605.23904v1
 author:

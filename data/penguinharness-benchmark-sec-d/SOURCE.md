@@ -1,4 +1,4 @@
-# Source of `data/penguinharness-benchmark-sec-d/tasks`
+# Source of `data/alphaagentharness-benchmark-sec-d/tasks`
 
 - Upstream: Terminal-Bench-Science 0.1, https://github.com/harbor-framework/terminal-bench-science (Apache-2.0)
 - Pinned: `main` at commit `61f4a549ebf77c29bedda0faf10779c9333ddad2`

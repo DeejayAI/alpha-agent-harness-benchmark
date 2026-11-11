@@ -8,9 +8,9 @@ model_provider: deepseek
 thinking_level: max
 algorithm: skillopt-rsi-toolkit
 training_data:
-- penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-train
+- alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-train
 test_data:
-- penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
+- alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
 references:
 - https://arxiv.org/abs/2605.23904v1
 author:

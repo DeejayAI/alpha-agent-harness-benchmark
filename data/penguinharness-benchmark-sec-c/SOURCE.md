@@ -1,4 +1,4 @@
-# Source of `data/penguinharness-benchmark-sec-c`
+# Source of `data/alphaagentharness-benchmark-sec-c`
 
 - Upstream: AutomationBench, https://github.com/zapier/AutomationBench (MIT, Copyright 2026 Zapier, Inc.)
 - Pinned: version 1.0.6 at commit `4a8e1061254004d9dac807054eed33fad7d1ff14`

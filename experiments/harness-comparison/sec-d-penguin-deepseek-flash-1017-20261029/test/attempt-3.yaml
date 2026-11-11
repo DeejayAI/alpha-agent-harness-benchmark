@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-001-variable-star-vetting
   time: null
   score: 0.00
@@ -9,7 +9,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-002-clinical-metadata-recovery
   time: null
   score: 0.00
@@ -19,7 +19,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-003-mri-harmonization
   time: null
   score: 0.00
@@ -29,7 +29,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-004-sparse-network-assimilation
   time: null
   score: 0.00
@@ -39,7 +39,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-005-virtual-baseline-localization
   time: null
   score: 0.00
@@ -49,7 +49,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-006-guided-wave-localization
   time: null
   score: 0.00
@@ -59,7 +59,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-007-foraging-cognitive-model
   time: null
   score: 0.00
@@ -69,7 +69,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-008-linked-cell-suppression
   time: null
   score: 0.00
@@ -79,7 +79,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-009-certified-sparse-regression
   time: null
   score: 0.00
@@ -89,7 +89,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-d
+  - benchmark_id: alphaagentharness-benchmark-sec-d
     task_id: CASE-010-neo-orbit-determination
   time: null
   score: 0.00

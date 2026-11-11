@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-001-dabstep_real_fees_1681
   time: null
   score: 100.00
@@ -9,7 +9,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-002-multihiertt_global_products_atoi_share_hard
   time: null
   score: 0.00
@@ -19,7 +19,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-003-workspacebench_taobao_permissions_hard
   time: null
   score: 0.00
@@ -29,7 +29,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-004-finlongdocqa_interest_expense_sensitivity_screen_hard
   time: null
   score: 0.00
@@ -39,7 +39,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-005-prepbench_loyalty_tier_normalization_hard
   time: null
   score: 100.00
@@ -49,7 +49,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-006-spreadsheetbench_working_paper_transpose_hard
   time: null
   score: 100.00
@@ -59,7 +59,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-007-harveylab_reps_diligence_discrepancy_hard
   time: null
   score: 100.00
@@ -69,7 +69,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-008-fdabench_app_sentiment_xsource_hard_v2
   time: null
   score: 100.00
@@ -79,7 +79,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-009-longda_nscg_telework_hard
   time: null
   score: 100.00
@@ -89,7 +89,7 @@
   n_cache_tokens: null
   n_output_tokens: null
 - source:
-  - benchmark_id: penguinharness-benchmark-sec-a
+  - benchmark_id: alphaagentharness-benchmark-sec-a
     task_id: CASE-010-spider2lite_f1_overtake_audit_hard
   time: null
   score: 0.00

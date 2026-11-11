@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
     task_id: CASE-001-engineering-portfolio-analytics-test-001
   time: '2026-10-29T03:44:47Z'
   score: 52.63
@@ -9,7 +9,7 @@
   n_cache_tokens: 3014400
   n_output_tokens: 90949
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
     task_id: CASE-002-engineering-portfolio-analytics-test-002
   time: '2026-10-29T03:46:51Z'
   score: 41.18
@@ -19,7 +19,7 @@
   n_cache_tokens: 2487168
   n_output_tokens: 120510
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
     task_id: CASE-003-engineering-portfolio-analytics-test-003
   time: '2026-10-29T03:54:20Z'
   score: 52.17
@@ -29,7 +29,7 @@
   n_cache_tokens: 6622592
   n_output_tokens: 285841
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
     task_id: CASE-004-engineering-portfolio-analytics-test-004
   time: '2026-10-29T02:31:40Z'
   score: 58.33
@@ -39,7 +39,7 @@
   n_cache_tokens: 6462720
   n_output_tokens: 189109
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test
     task_id: CASE-005-engineering-portfolio-analytics-test-005
   time: '2026-10-29T03:47:04Z'
   score: 68.18

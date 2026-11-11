@@ -1,5 +1,5 @@
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-portfolio-management-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test
     task_id: CASE-001-portfolio-management-test-001
   time: '2026-10-28T21:14:22Z'
   score: 55.00
@@ -9,7 +9,7 @@
   n_cache_tokens: 3561856
   n_output_tokens: 188299
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-portfolio-management-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test
     task_id: CASE-002-portfolio-management-test-002
   time: '2026-10-28T21:11:35Z'
   score: 64.29
@@ -19,7 +19,7 @@
   n_cache_tokens: 4287744
   n_output_tokens: 147807
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-portfolio-management-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test
     task_id: CASE-003-portfolio-management-test-003
   time: '2026-10-28T21:07:20Z'
   score: 100.00
@@ -29,7 +29,7 @@
   n_cache_tokens: 3267456
   n_output_tokens: 133168
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-portfolio-management-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test
     task_id: CASE-004-portfolio-management-test-004
   time: '2026-10-28T21:13:37Z'
   score: 50.00
@@ -39,7 +39,7 @@
   n_cache_tokens: 3116672
   n_output_tokens: 167181
 - source:
-  - benchmark_id: penguinharness-benchmark-gdpevo-essential-portfolio-management-test
+  - benchmark_id: alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test
     task_id: CASE-005-portfolio-management-test-005
   time: '2026-10-28T21:16:10Z'
   score: 70.59
