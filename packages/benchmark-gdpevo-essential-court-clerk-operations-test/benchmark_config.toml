@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-court-clerk-operations-test"
+id = "benchmark-gdpevo-essential-court-clerk-operations-test"
 title = "GDPEVO Essential-Court Clerk Operations-Test"
 title_zh = "GDPEVO Essential-法院书记员业务-测试"
 description = "Court Clerk Operations, from GDPevo task_group_018. Five held-out questions evaluate the frozen Agent State from the paired Train package. Each question runs in a fresh container and Session, with a four-hour budget; scores use the original weighted graders."

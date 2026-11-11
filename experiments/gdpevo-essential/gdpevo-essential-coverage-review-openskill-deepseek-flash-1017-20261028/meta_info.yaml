@@ -1,7 +1,7 @@
 experiment_id: gdpevo-essential-coverage-review-openskill-deepseek-flash-1017-20261028
 status: published
 submit_time: '2026-10-31T12:58:10Z'
-harness_name: PenguinHarness
+harness_name: AlphaAgentHarness
 harness_version: 0.2.19
 model_name: DeepSeek-V4.1-Flash-1017
 model_provider: deepseek

@@ -3,7 +3,7 @@
 # subnetted"): the task's main container joins one pre-created bridge network instead of
 # a new per-trial Compose network.
 #
-#   docker network create --subnet 10.233.0.0/16 penguin-bench     # once per host; any free private range
+#   docker network create --subnet 10.233.0.0/16 alpha-bench     # once per host; any free private range
 #   harbor run ... --extra-docker-compose agents/shared-network.yaml
 #
 # Only for single-container tasks whose agent phase is public: here Terminal-Bench,
@@ -15,7 +15,7 @@
 services:
   main:
     networks:
-      - penguin-bench
+      - alpha-bench
 networks:
-  penguin-bench:
+  alpha-bench:
     external: true

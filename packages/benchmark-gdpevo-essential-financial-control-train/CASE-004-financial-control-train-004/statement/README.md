@@ -31,14 +31,14 @@ Inside that container, read `/app/train_tasks/train_004/instruction.md` and its
 At the end, export this answer to `/app/submission/answers/train_004.json` and the
 learned Skill to `/app/submission/skill/SKILL.md`.
 
-Follow the [training and State preparation instructions](https://github.com/Prism-Shadow/penguin-harness-benchmark/blob/010fda6b775f864814188cde54efb8c927b4c6b9/data/alphaagentharness-benchmark-gdpevo-essential-financial-control-train/README.md). From a checkout
+Follow the [training and State preparation instructions](https://github.com/Prism-Shadow/alpha-agent-harness-benchmark/blob/010fda6b775f864814188cde54efb8c927b4c6b9/data/alphaagentharness-benchmark-gdpevo-essential-financial-control-train/README.md). From a checkout
 of commit `010fda6b775f864814188cde54efb8c927b4c6b9`, launch once for this entire Train package:
 
 ```bash
 export PYTHONPATH="$PWD/agents"
 uvx --from harbor==0.23.0 harbor run -p data/alphaagentharness-benchmark-gdpevo-essential-financial-control-train/tasks/train_tasks \
-  -a penguin_agent:PenguinAgent -m <provider>/<model_id> \
-  --ak thinking=<level> --ak penguin_version=<penguin-version> \
+  -a alpha_agent:AlphaAgent -m <provider>/<model_id> \
+  --ak thinking=<level> --ak alpha-version=<alpha-version> \
   --ak agent_state_tar=<absolute-training-state.tar.gz> \
   --ak run_timeout=6h --ak max_turns=-1 \
   --allow-agent-host <model-provider-api-host> \

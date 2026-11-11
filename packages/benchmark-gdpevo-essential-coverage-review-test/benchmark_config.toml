@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-coverage-review-test"
+id = "benchmark-gdpevo-essential-coverage-review-test"
 title = "GDPEVO Essential-Coverage Review-Test"
 title_zh = "GDPEVO Essential-医保审核-测试"
 description = "Coverage Review (payer authorization and appeals), from GDPevo task_group_014. Five held-out questions evaluate the frozen Agent State from the paired Train package. Each question runs in a fresh container and Session, with a four-hour budget; scores use the original weighted graders."

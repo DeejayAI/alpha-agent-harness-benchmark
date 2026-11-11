@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-train"
+id = "benchmark-gdpevo-essential-service-ticket-resolution-train"
 title = "GDPEVO Essential-Service Ticket Resolution-Train"
 title_zh = "GDPEVO Essential-服务工单处理-训练"
 description = "Service Ticket Resolution, from GDPevo task_group_003. Five training Cases share one continuous Agent Session and container, with a six-hour total budget. Learn from the task feedback and export a reusable Skill; scores use the original weighted graders."

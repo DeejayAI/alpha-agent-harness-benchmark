@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-test"
+id = "benchmark-gdpevo-essential-engineering-portfolio-analytics-test"
 title = "GDPEVO Essential-Engineering Portfolio Analytics-Test"
 title_zh = "GDPEVO Essential-工程项目组合分析-测试"
 description = "Engineering Portfolio Analytics, from GDPevo task_group_024. Five held-out questions evaluate the frozen Agent State from the paired Train package. Each question runs in a fresh container and Session, with a four-hour budget; scores use the original weighted graders."

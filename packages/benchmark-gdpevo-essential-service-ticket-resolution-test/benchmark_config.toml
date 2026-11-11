@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-service-ticket-resolution-test"
+id = "benchmark-gdpevo-essential-service-ticket-resolution-test"
 title = "GDPEVO Essential-Service Ticket Resolution-Test"
 title_zh = "GDPEVO Essential-服务工单处理-测试"
 description = "Service Ticket Resolution, from GDPevo task_group_003. Five held-out questions evaluate the frozen Agent State from the paired Train package. Each question runs in a fresh container and Session, with a four-hour budget; scores use the original weighted graders."

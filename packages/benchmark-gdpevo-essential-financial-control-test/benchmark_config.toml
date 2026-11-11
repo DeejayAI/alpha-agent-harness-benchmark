@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-financial-control-test"
+id = "benchmark-gdpevo-essential-financial-control-test"
 title = "GDPEVO Essential-Financial Control-Test"
 title_zh = "GDPEVO Essential-财务管控-测试"
 description = "Financial Control (expense control and accounting close), from GDPevo task_group_005. Five held-out questions evaluate the frozen Agent State from the paired Train package. Each question runs in a fresh container and Session, with a four-hour budget; scores use the original weighted graders."

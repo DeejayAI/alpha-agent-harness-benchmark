@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-coverage-review-train"
+id = "benchmark-gdpevo-essential-coverage-review-train"
 title = "GDPEVO Essential-Coverage Review-Train"
 title_zh = "GDPEVO Essential-医保审核-训练"
 description = "Coverage Review (payer authorization and appeals), from GDPevo task_group_014. Five training Cases share one continuous Agent Session and container, with a six-hour total budget. Learn from the task feedback and export a reusable Skill; scores use the original weighted graders."

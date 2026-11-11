@@ -12,17 +12,17 @@ Return only JSON matching input/payloads/answer_template.json. Do not include na
 
 ## How this case is run
 
-This is a Harbor task, run in Docker with Harbor 0.23.0 and the PenguinHarness
-adapter. Read the [run rules](https://github.com/Prism-Shadow/penguin-harness-benchmark/blob/010fda6b775f864814188cde54efb8c927b4c6b9/README.md#running-a-task-for-agents)
-and [scenario instructions](https://github.com/Prism-Shadow/penguin-harness-benchmark/blob/010fda6b775f864814188cde54efb8c927b4c6b9/data/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test/README.md). Task files are at
-[portfolio-management-test-004](https://github.com/Prism-Shadow/penguin-harness-benchmark/tree/010fda6b775f864814188cde54efb8c927b4c6b9/data/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test/tasks/portfolio-management-test-004).
+This is a Harbor task, run in Docker with Harbor 0.23.0 and the AlphaAgentHarness
+adapter. Read the [run rules](https://github.com/Prism-Shadow/alpha-agent-harness-benchmark/blob/010fda6b775f864814188cde54efb8c927b4c6b9/README.md#running-a-task-for-agents)
+and [scenario instructions](https://github.com/Prism-Shadow/alpha-agent-harness-benchmark/blob/010fda6b775f864814188cde54efb8c927b4c6b9/data/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test/README.md). Task files are at
+[portfolio-management-test-004](https://github.com/Prism-Shadow/alpha-agent-harness-benchmark/tree/010fda6b775f864814188cde54efb8c927b4c6b9/data/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test/tasks/portfolio-management-test-004).
 Run from a checkout of commit `010fda6b775f864814188cde54efb8c927b4c6b9`, the same commit as the paired Train package:
 
 ```bash
 export PYTHONPATH="$PWD/agents"
 uvx --from harbor==0.23.0 harbor run -p data/alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test/tasks -i portfolio-management-test-004 \
-  -a penguin_agent:PenguinAgent -m <provider>/<model_id> \
-  --ak thinking=<level> --ak penguin_version=<penguin-version> \
+  -a alpha_agent:AlphaAgent -m <provider>/<model_id> \
+  --ak thinking=<level> --ak alpha-version=<alpha-version> \
   --ak agent_state_tar=<absolute-frozen-state.tar.gz> \
   --ak run_timeout=4h --ak max_turns=-1 \
   --allow-agent-host <model-provider-api-host> \

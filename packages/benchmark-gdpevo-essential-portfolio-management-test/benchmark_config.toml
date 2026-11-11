@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-portfolio-management-test"
+id = "benchmark-gdpevo-essential-portfolio-management-test"
 title = "GDPEVO Essential-Portfolio Management-Test"
 title_zh = "GDPEVO Essential-投资组合管理-测试"
 description = "Portfolio Management (investment strategy and portfolio risk), from GDPevo task_group_010. Five held-out questions evaluate the frozen Agent State from the paired Train package. Each question runs in a fresh container and Session, with a four-hour budget; scores use the original weighted graders."

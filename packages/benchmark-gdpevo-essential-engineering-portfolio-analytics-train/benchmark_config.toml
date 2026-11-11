@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-engineering-portfolio-analytics-train"
+id = "benchmark-gdpevo-essential-engineering-portfolio-analytics-train"
 title = "GDPEVO Essential-Engineering Portfolio Analytics-Train"
 title_zh = "GDPEVO Essential-工程项目组合分析-训练"
 description = "Engineering Portfolio Analytics, from GDPevo task_group_024. Five training Cases share one continuous Agent Session and container, with a six-hour total budget. Learn from the task feedback and export a reusable Skill; scores use the original weighted graders."

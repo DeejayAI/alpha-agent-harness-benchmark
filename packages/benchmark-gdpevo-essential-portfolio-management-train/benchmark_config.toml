@@ -1,4 +1,4 @@
-id = "alphaagentharness-benchmark-gdpevo-essential-portfolio-management-train"
+id = "benchmark-gdpevo-essential-portfolio-management-train"
 title = "GDPEVO Essential-Portfolio Management-Train"
 title_zh = "GDPEVO Essential-投资组合管理-训练"
 description = "Portfolio Management (investment strategy and portfolio risk), from GDPevo task_group_010. Five training Cases share one continuous Agent Session and container, with a six-hour total budget. Learn from the task feedback and export a reusable Skill; scores use the original weighted graders."
